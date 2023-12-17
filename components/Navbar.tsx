@@ -16,9 +16,7 @@ const Navbar = () => {
     const [serviceToggle, setServiceToggle] = useState(false);
     console.log(serviceToggle)
     return (
-        <div className='h-12 flex items-center justify-center p-4 bg-slate-50 w-full fixed top-0'>
-            <div  className='h-px w-full bg-black'/>
-            <div className='flex gap-4 px-4'>
+        <div className='h-9 w-1/4 flex gap-4 shadow-md rounded-2xl items-center justify-center p-4 bg-white absolute left-1/2 right-1/2 transform -translate-x-1/2 top-2 z-50'>
                 
                 <Link
                     href='/'
@@ -35,7 +33,7 @@ const Navbar = () => {
                 </Link>
                 <DropdownMenu onOpenChange={() => setServiceToggle((prev) => !prev)}>
                     <DropdownMenuTrigger
-                    className='text-xs p-1 text-black hover:text-black/70 flex justify-center items-center gap-px focus:ring-0 focus:ring-offset-0 ring-0 ring-offset-0 ouline-0 focus:outline-0 outline-offset-0 focus:outline-offset-0 focus-visible:ring-0 focus-visible:outline-0 uppercase'
+                    className='text-xs p-1 text-black hover:text-black/70 flex justify-center items-center gap-px focus:ring-0 focus:ring-offset-0 ring-0 ring-offset-0 ouline-0 focus:outline-0 outline-offset-0 focus:outline-offset-0 focus-visible:ring-0 focus-visible:outline-0 uppercase z-50'
                     >
                         Services
                         <ChevronDown className={cn("h-4 w-4",
@@ -51,10 +49,8 @@ const Navbar = () => {
                 </DropdownMenu>
 
             </div>
-            <div  className='h-px w-full bg-black hover:text-black/70'/>
 
 
-        </div>
     )
 }
 
