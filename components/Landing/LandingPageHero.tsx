@@ -16,12 +16,12 @@ const LandingPageHero = () => {
                     </h3>
                 </div>
                 <div className='h-full w-2/3 flex justify-center py-12'>
-                    <section className=' flex justify-center flex-col border border-neutral-500 w-9/12 aspect-video  bg-white rounded-lg p-2 overflow-clip relative'>
+                    {/* <section className=' flex justify-center flex-col border border-neutral-500 w-9/12 aspect-video  bg-white rounded-lg p-2 overflow-clip relative'>
                         <Image src={image1}
                         alt='image'
                          fill
                          className='h-72 w-96'/>
-                        {/* <div className='flex h-full w-full -rotate-6 transform -translate-x-8'>
+                        <div className='flex h-full w-full -rotate-6 transform -translate-x-8'>
                             <Image 
                             src=''
                             alt='image'
@@ -54,8 +54,8 @@ const LandingPageHero = () => {
                             <div className="h-48 aspect-square bg-blue-400 border gap-2"></div>
                             <div className="h-48 aspect-square bg-blue-400 border gap-2"></div>
                             <div className="h-48 aspect-square bg-blue-400 border gap-2"></div>
-                        </div> */}
-                    </section>
+                        </div>
+                    </section> */}
                 </div>
             </div>
         </div>
