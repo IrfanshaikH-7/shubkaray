@@ -21,6 +21,7 @@ module.exports = {
       fontFamily: {
         alex: ['Alex Brush', "cursive"],
         arizona:['Arizonia', 'cursive'],
+        tilt: ['Tilt Neon', 'sans-serif']
        },
       colors: {
         border: "hsl(var(--border))",

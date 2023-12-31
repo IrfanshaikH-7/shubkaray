@@ -29,7 +29,7 @@ export default function Index({data, isActive, setSelectedIndicator}: Props) {
 
       <motion.div 
 
-        className='relative flex items-center'
+        className='relative flex items-center z-50'
 
         onMouseEnter={() => {setSelectedIndicator(href)}} 
 
@@ -52,7 +52,7 @@ export default function Index({data, isActive, setSelectedIndicator}: Props) {
 
           animate={isActive ? "open" : "closed"} 
 
-          className="w-[10px] h-[10px] bg-white rounded-full absolute -left-[30px]">
+          className="w-[10px] h-[10px] bg-white rounded-full absolute -left-[30px] z-[99999]">
 
         </motion.div>
 

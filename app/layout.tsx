@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Poppins } from 'next/font/google'
+import { Poppins, Tilt_Neon } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 
 
-const poppins = Poppins({
+const tilt = Tilt_Neon({
   subsets: ['latin'] ,
-  weight: ['900', '800', '700', '600', '500', '400', '300', '200', '100'] });
+  weight: ['400'] });
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -22,9 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={tilt.className}>
         <Navbar />
-        <div>
+        <div className='bg-white '>
           {children}
         </div>
         
