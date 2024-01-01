@@ -17,7 +17,7 @@ const Navbar = () => {
     const [serviceToggle, setServiceToggle] = useState(false);
     console.log(serviceToggle)
     return (
-        <div className='h-9 w-2/5 flex gap-4 shadow-md rounded-2xl items-center justify-center p-4 bg-white fixed left-1/2 right-1/2 transform -translate-x-1/2 top-2 z-50'>
+        <div className='h-9 w-2/5 flex gap-4 shadow-md rounded-2xl items-center justify-center p-4 bg-white fixed left-1/2 right-1/2 transform -translate-x-1/2 top-2 z-[999]'>
 
             <Link
                 href='/'

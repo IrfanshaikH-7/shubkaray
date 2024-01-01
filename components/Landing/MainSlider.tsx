@@ -9,11 +9,11 @@ import { ZCOOL_KuaiLe } from 'next/font/google'
 
 
 const MainSlider = () => {
-    const [active, setActive] = useState(false)
+    const [active, setActive] = useState(true)
     console.log(active)
   return (
-    <section className= {cn('h-full w-full  transition-all duration-300 bg-[#fEB6C1] relative ',
-    active ? ' shadow-xl' : 'translate-x-[calc(100%-40px)] bg-neutral-50'
+    <section className= {cn('h-full w-full  transition-all duration-500 bg-[#fEB6C1] relative z-50',
+    active ? ' shadow-xl' : 'translate-x-[calc(100%-40px)] bg-white'
     )}
     
     >
@@ -37,7 +37,7 @@ const MainSlider = () => {
               <Image
                 src={wedPaper}
                 className='object-contain h-full scale-150  rotate-[18deg] aspect-square '
-                alt='logo'
+                alt='img'
               />
             </div>
           </div>

@@ -3,16 +3,17 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Arizonia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Tilt+Neon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
-:root {
+/* :root {
   --swiper-navigation-color: #FFF;
 }
 .swiper-button-next, .swiper-button-prev {
   --swiper-navigation-size: 20px
 }
- 
+  */
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -98,7 +99,7 @@ base {
 /* _____________________ */
 /* Mobile nav  */
 
-.burger{
+/* .burger{
 
   width: 100%;
 
@@ -165,4 +166,4 @@ base {
 .bodyN{
 
   box-sizing: border-box;
-}
+} */
